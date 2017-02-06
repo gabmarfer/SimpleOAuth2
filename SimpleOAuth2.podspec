@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files          = 'SimpleOAuth2/Source/*.{h,m}'
   s.frameworks            = 'Foundation'
 
-  s.dependency 'AFNetworking', '~> 2.0'
+  s.dependency 'AFNetworking', '~> 3.1'
 end
