@@ -1,11 +1,11 @@
 PODS:
   - AFNetworking (2.4.1):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-    - AFNetworking/UIKit
+    - AFNetworking/NSURLConnection (= 2.4.1)
+    - AFNetworking/NSURLSession (= 2.4.1)
+    - AFNetworking/Reachability (= 2.4.1)
+    - AFNetworking/Security (= 2.4.1)
+    - AFNetworking/Serialization (= 2.4.1)
+    - AFNetworking/UIKit (= 2.4.1)
   - AFNetworking/NSURLConnection (2.4.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -24,25 +24,22 @@ PODS:
   - OCMock (3.0.2)
   - RealFakes (0.0.3):
     - AFNetworking (~> 2.0)
-  - Specta (0.3.0.beta1)
+  - Specta (1.0.5)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - Expecta (~> 0.2.4)
   - OCMock (~> 3.0.2)
   - RealFakes
-  - Specta (from `https://github.com/specta/specta.git`, tag `v0.3.0.beta1`)
-
-EXTERNAL SOURCES:
-  Specta:
-    :git: https://github.com/specta/specta.git
-    :tag: v0.3.0.beta1
+  - Specta (~> 1.0)
 
 SPEC CHECKSUMS:
-  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
-  Expecta: 112bcafa2304ee0f3c5e586505f24555a47b25d5
-  OCMock: b9836ab89d8d5e66cbe6333f93857037c310ee62
-  RealFakes: 6988e2819e873ff3b31155d8e067b387f2a810cd
-  Specta: 63e8ac8e07db6675c7096d37f77a266a1be4c02d
+  AFNetworking: 41d45d2c14219af0fa5addf3cfd433a002c13c9f
+  Expecta: cfaf1d3e2e194ca704a25e997093d30a1ce70b61
+  OCMock: 1f0871af0f397183f33e7552cca088bd2b485c25
+  RealFakes: 839e2ec813839614ae64b79590da4dc8bdd0017f
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
-COCOAPODS: 0.34.4
+PODFILE CHECKSUM: 05384356accb42094d9e90f3957b62897799745f
+
+COCOAPODS: 1.2.0
