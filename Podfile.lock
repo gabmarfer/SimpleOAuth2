@@ -1,45 +1,26 @@
 PODS:
-  - AFNetworking (2.4.1):
-    - AFNetworking/NSURLConnection (= 2.4.1)
-    - AFNetworking/NSURLSession (= 2.4.1)
-    - AFNetworking/Reachability (= 2.4.1)
-    - AFNetworking/Security (= 2.4.1)
-    - AFNetworking/Serialization (= 2.4.1)
-    - AFNetworking/UIKit (= 2.4.1)
-  - AFNetworking/NSURLConnection (2.4.1):
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.4.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.4.1)
-  - AFNetworking/Security (2.4.1)
-  - AFNetworking/Serialization (2.4.1)
-  - AFNetworking/UIKit (2.4.1):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - Expecta (0.2.4)
-  - OCMock (3.0.2)
-  - RealFakes (0.0.3):
-    - AFNetworking (~> 2.0)
-  - Specta (1.0.5)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.0)
-  - Expecta (~> 0.2.4)
-  - OCMock (~> 3.0.2)
-  - RealFakes
-  - Specta (~> 1.0)
+  - AFNetworking (~> 3.1)
 
 SPEC CHECKSUMS:
-  AFNetworking: 41d45d2c14219af0fa5addf3cfd433a002c13c9f
-  Expecta: cfaf1d3e2e194ca704a25e997093d30a1ce70b61
-  OCMock: 1f0871af0f397183f33e7552cca088bd2b485c25
-  RealFakes: 839e2ec813839614ae64b79590da4dc8bdd0017f
-  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
 
-PODFILE CHECKSUM: 05384356accb42094d9e90f3957b62897799745f
+PODFILE CHECKSUM: 6a3b561d136b106883dadc0049bb9a9fdae9df5e
 
 COCOAPODS: 1.2.0

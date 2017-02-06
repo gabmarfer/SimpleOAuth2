@@ -53,9 +53,10 @@
 {
     [self.sessionManager POST:authURL.absoluteString
                    parameters:tokenParameters
-                      success:^(NSURLSessionDataTask *task, id responseObject) {
+                     progress:nil
+                      success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                           success(responseObject);
-                      } failure:^(NSURLSessionDataTask *task, NSError *error) {
+                      } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                           failure(error);
                       }];
 }
@@ -64,12 +65,13 @@
                 tokenParameters:(id<TokenParameters>)tokenParameters
                         success:(void (^)(id authResponseObject))success
                         failure:(void (^)(NSError *error))failure
-{
+{   
     [self.sessionManager POST:authURL.absoluteString
                    parameters:[tokenParameters build]
-                      success:^(NSURLSessionDataTask *task, id responseObject) {
+                     progress:nil
+                      success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                           success(responseObject);
-                      } failure:^(NSURLSessionDataTask *task, NSError *error) {
+                      } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                           failure(error);
                       }];
 }
